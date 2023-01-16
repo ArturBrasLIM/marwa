@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Matrial Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <!--iconscout cdn-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!----Swiper JS----->
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="#">
+                <h2>Portfó<span>lio</span></h2>
+            </a>
+            <ul>
+                <li><a href="#" class="active">Página Inicial</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#skills">Habilidade</a></li>
+                <li><a href="#work">Trabalho</a></li>
+                <li><a href="#contact">Contacte-me</a></li>
+                <li id="btn"><a href="#" ><i id="icon" class="uil uil-globe"></i></a>
+                <ul id="dropdown">
+                    <li ><a href="portuguese.html">Português</a></li>
+                    <li><a href="arabic.html">Árabe</a></li>
+                    <li><a href="index.html">Inglês</a></li>
+                   
+                </ul>
+            </li>
+            </ul>
+        </div>
+            <button id="menu-btn"><span class="material-icons-sharp" >menu</span></button>
+            <button id="close-btn"><span class="material-icons-sharp" >close</span></button>
+
+        
+       <i class="uil uil-moon" id="icon1"></i>
+      
+    </nav>
+<!---------------------------------End OF NAVBAR---------------------------->
+
+    <section class="landing">
+        <div class="container">
+            <div class="socials">
+                <a href="https://www.facebook.com/marwa.hani.7545708/" target="_blank"><i
+                        class="uil uil-facebook-f"></i></a>
+                <a href="https://www.instagram.com/marwaahani/" target="_blank"><i class="uil uil-instagram"></i></a>
+            </div>
+            <div class="info">
+                <h3>Olá! eu sou </h3>
+                <h1> <span> Marwa </span> Hani</h1>
+                <p>Sou estudante de tecnologia da informação (TI), que ambiciona desafios, 
+                    <br>gosto novas ideias e tenho capacidade de ajudar e impactar os outros. 
+                    <br>A melhor maneira de me conhecer é passa algum tempo comigo 
+                    <br>com um café, mas este é um bom começo!
+                </p>
+                <!--btn contact-->
+                <a href="#contact" class="btn btn-primary">Contact-me</i></a>
+            </div>
+            <div class="profile-area">
+                <div class="outer-circle">
+                    <a><i class="uil uil-arrow"></i></a>
+                    <a><i class="uil uil-flower"></i></a>
+                    <a><i class="uil uil-camera"></i></i></a>
+                    <a><i class="uil uil-microphone-slash"></i></a>
+                </div>
+                <div class="inner-circle">
+                    <img src="images/pic.jpeg">
+                </div>
+                <div class="music">
+                    <p> <span>Tocar música<i class="uil uil-music"></i></span></p> 
+                    <a><i class="uil uil-play" id="play"></i> </a>
+                </div>
+            </div>
+            <audio id="mySong">
+                <source src="images/audio.mpeg" type="audio/mpeg">
+            </audio>
+
+        </div>
+    </section>
+
+<!---------------------------------End landing section---------------------------->
+
+    <section class="about" id="about">
+        <h1> Sobre <span> mim </span></h1>
+        <div class="container">
+            <div class="image" id="image">
+                <img src="images/about1.jpeg" alt="">
+                <video id="myVideo" controls autoplay>
+                    <source id="mp4_src" src="images/work.mp4" type="video/mp4">
+                       Seu navegador não suporta vídeo HTML5
+                    </video>
+            </div>
+            <div class="info">
+                <p>
+                    Eu sou Marwa e tenho 19 anos. Sou da Síria, vivo com a minha família em Portugal desde novembro de 2019 depois que deixei o Egito e obtive um certificado secundário em estudos científicos.
+                    <br> E agora estou a estudar licenciatura em Tecnologia da Informações e Multimídia, através do qual tive a oportunidade de fazer este site de portfólio pelo qual me introduzo como um início na aplicação de linguagens web, que me ajuda a me desenvolver e aos meus hobbies.
+                </p>
+
+                <p>
+                    A minha língua materna é o árabe e tenho um bom nível de inglês e atualmente continuo a estudar português e gosto de aprender várias línguas e culturas, o que me ajudou a formar a minha personalidade no trato com os outros e na adaptação a novas pessoas e lugares mais rápido. 
+                    <br>Sou uma pessoa que gosta comunicar, conhecer e ajudar os outros.
+                </p>
+                <div class="read-more-content">
+                    <p>
+                        Tenho experiência em trabalho voluntário e gosto de participar. Participei num trabalho voluntário de verão com um grupo de jovens em julho deste ano e no ano passado no projeto “Nós pela Floresta” do Instituto Português do Desporto e Juventude, um trabalho que visa e proteção as florestas, e ajudar os bombeiros, por rastreamento de fumaça de incêndios.
+                        <p>
+                    
+                </div>
+                <a class="read-more">mais..</a>
+                <a href="images/Marwa CV.pdf" download class="btn btn-primary"> Baixar CV <i class="uil uil-import"></i></a>
+            </div> 
+        </div>
+    </section>
+<!--------------------------------------------------End About section ----------------------------------------->
+
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+            <div class="container">
+                 <div class="skill">
+                     <div class="icon">
+                         <img src="images/communication.jpeg">
+                     </div>
+                     <div class="info">
+                         <h3>Comunicação</h3>
+                         <p>Tenho capacidade para dar e receber diferentes tipos de informações. por exemplo, comunicar ideias, sentimentos ou o que está acontece ao meu redor, e gosto de motivar os outros.
+                            Também sou bom em ouvir, falar, observar e ter empatia com os outros.</p>
+                     </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <img src="images/team work.jpeg">
+                    </div>
+                    <div class="info">
+                        <h3>trabalho em equipe</h3>
+                        <p>Gosto de trabalhar com um grupo de pessoas para atingir um objetivo ou resultado comum de maneira eficaz.
+                            Tenho capacidade para: ouvir os outros membros da equipe, aceitar as ideias de todos,  trabalhar para o bem do grupo como um todo, ter uma palavra a dizer e compartilhar responsabilidades.</p>
+                    </div>
+               </div>
+               <div class="skill">
+                <div class="icon">
+                    <img src="images/creative thinking.jpeg">
+                </div>
+                <div class="info">
+                    <h3>Pensamento criativo</h3>
+                    <p>Posso considerar as coisas de uma nova perspectiva e de ângulos diferentes. para chegar a resultados em conclusões surpreendentes e novas maneiras de fazer as coisas. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!------------------------------------------------------End Skills section----------------------------------------->
+
+    <section class="work" id="work">
+        <h1> <span> Meu </span> trabalho </h1>
+        <h4>Um dos meus hobbies que gosto de fazer é a fotografia e isso faz parte.</h4>
+        <div class="container swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/ph1.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph2.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph3.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph4.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph5.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph6.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph7.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph8.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph9.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph10.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph11.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph12.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph13.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph14.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph15.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/ph16.jpeg"></div> 
+                </div>
+                 
+           
+        </div> 
+    </section>  
+
+<!----------------------------------END WHAT SECTION-------------------------------------------->
+
+    <section class="contact" id="contact">
+        <h1>Contact-me</h1>
+        <div class="content">
+            
+            <div class="info">
+                <p><i class="uil uil-envelope"></i> mar02hani16@gmail.com</p>
+                <p><i class="uil uil-phone"></i>+351 912 180 503</p>
+                <p><i class="uil uil-map-marker"></i>Castelo Branco, Portugal</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392296.1010144282!2d-7.743296561651714!3d39.81117975398969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d5c2895907fdb%3A0x1c706a2a55bb1e40!2sCastelo%20Branco!5e0!3m2!1spt-PT!2spt!4v1640707490729!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/mqknappz" method="POST">
+                        <input type="text" name="Name" placeholder=" Nome" class="contact-form-text"required>
+                        <input type="text" name="Email" placeholder=" o email" class="contact-form-text" required>
+                        <textarea name="Message" placeholder="mensagem" class="contact-form-textarea"required></textarea>
+                        <button type="submit" class="form-submit-btn">manda<i class="uil uil-message"></i></button>
+                    </form>
+                </div>     
+        </div>
+    </section>
+<!---------------------------END CONTACT SECTION--------------------------------->
+
+
+
+<footer>
+    <div class="container">
+       <a href="#"><h3>Portfó<span>lio</span></h3></a>
+       <ul>
+        <li><a href="#">Página Inicial</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#skills">Habilidade</a></li>
+        <li><a href="#what">Trabalho</a></li>
+        <li><a href="#contact">Contact-me</a></li>
+        
+    </ul>
+    <div class="socials">
+        <a href="https://www.facebook.com/marwa.hani.7545708/" target="_blank"><i
+                class="uil uil-facebook-f"></i></a>
+        <a href="https://www.instagram.com/marwaahani/" target="_blank"><i class="uil uil-instagram"></i></a>
+    </div>
+    </div>
+    <div class="copyright">
+        direito autoral &copy; Marwa Hani Alkhatib
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function hello(){
+        alert("Bem vindo em meu portfólio!");
+    }
+    hello();   
+</script>
+
+<script>
+    // read more about
+const readMoreBtn = document.querySelector('.read-more');
+const readMoreContent = document.querySelector('.read-more-content');
+
+readMoreBtn.addEventListener('click', () => {
+    readMoreContent.classList.toggle('show-content');
+    if(readMoreContent.classList.contains('show-content')){
+        readMoreBtn.textContent = "menos";
+    } else {
+        readMoreBtn.textContent = "mais..";
+    }
+
+})
+</script>
+
+
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
